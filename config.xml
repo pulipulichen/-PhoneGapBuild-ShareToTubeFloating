@@ -74,7 +74,10 @@ PhoneGap Build Configuration
         <edit-config file="AndroidManifest.xml"
                      target="/manifest/application/activity"
                      mode="merge">
-            <activity android:theme="@android:style/Theme.Translucent" android:excludeFromRecents="true"></activity>
+            <activity android:theme="@android:style/Theme.Translucent" android:excludeFromRecents="true" 
+                      android:taskAffinity=""
+                      android:launchMode="singleInstance">
+            </activity>
         </edit-config>
         <config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
             <intent-filter android:label="FTube">

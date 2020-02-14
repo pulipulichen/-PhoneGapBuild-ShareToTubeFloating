@@ -71,8 +71,8 @@ PhoneGap Build Configuration
                      mode="merge">
             <application android:theme="@android:style/Theme.Translucent" android:excludeFromRecents="true"></application>
         </edit-config>
-        <edit-config file="AndroidManifest.xml"
-                     target="/manifest/plugins"
+        <edit-config file="res/xml/config.xml"
+                     target="/plugins"
                      mode="merge">
             <plugin name="FloatingActivityPlugin" value="com.phonegap.plugins.floatingactivityplugin.FloatingActivityPlugin"/>
         </edit-config>

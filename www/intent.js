@@ -115,11 +115,13 @@ intent_handler = function (intent) {
 openActivity = function () {
   //return;
   var _config = {
-    action: "com.videoplayer.floatingyoutube.activities.SplashActivity",
+    action: "android.intent.action.SEND",
     extras: {
       "android.intent.extra.TEXT": 'https://youtu.be/pp0f69FC5NE',
     }
-  };
+  }
+  
+  alert(JSON.stringify(_config))
 
   try {
     window.plugins.webintent.startActivity(_config,

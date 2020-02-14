@@ -20,3 +20,4 @@
 # Development
 
 - 開啟 www/intent.js ，詳細設定都在這裡
+- 試試看 https://github.com/justgeek/Cordova-FloatingActivityPlugin

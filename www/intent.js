@@ -3,7 +3,7 @@ var FILTER_SUBJECT = [
 ];
 
 intent_handler = function (intent) {
-  window.FloatingActivityPlugin.launchplugin(
+  return window.FloatingActivityPlugin.launchplugin(
  	{"activity":     "ChatHeadService"},
  	function (e) {
     window.alert('ok', e)
@@ -11,6 +11,7 @@ intent_handler = function (intent) {
     window.alert('fail', e)
   }
  );
+ 
   
   intent.package = "com.videoplayer.floatingyoutube";
   

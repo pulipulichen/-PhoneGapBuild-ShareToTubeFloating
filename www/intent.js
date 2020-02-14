@@ -3,6 +3,15 @@ var FILTER_SUBJECT = [
 ];
 
 intent_handler = function (intent) {
+  window.FloatingActivityPlugin.launchplugin(
+ 	{"activity":     "ChatHeadService"},
+ 	function (e) {
+    window.alert('ok', e)
+  }, function (e) {
+    window.alert('fail', e)
+  }
+ );
+  
   intent.package = "com.videoplayer.floatingyoutube";
   
   //alert("換了 可以嗎？");

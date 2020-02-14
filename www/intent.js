@@ -67,6 +67,8 @@ intentStartActivity = function (_config) {
 //    }
 //  }
 
+  alert(JSON.stringify(_config, null, 2));
+  
 
   window.plugins.webintent.startActivity(_config,
           function () {
@@ -74,6 +76,7 @@ intentStartActivity = function (_config) {
           },
           function (e) {
             alert('Start activity failed:' + JSON.stringify(e, null, 2));
+            alert(JSON.stringify(_config, null, 2));
             navigator.app.exitApp();
           }
   );

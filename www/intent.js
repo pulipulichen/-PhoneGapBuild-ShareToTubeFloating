@@ -3,26 +3,31 @@ var FILTER_SUBJECT = [
 ];
 
 intent_handler = function (intent) {
+  intent.package = "com.videoplayer.floatingyoutube";
+  
   //alert("換了 可以嗎？");
   //alert(JSON.stringify(intent));
   if (typeof (intent.action) === "string"
           && intent.action === "android.intent.action.MAIN") {
-    return openActivityDefault();
+    return openActivityDefault({
+      package: intent.package
+    });
   }
 
   var _url = extractURL(intent);
-  _url = "https://youtu.be/MCkTebktHVc"
+  //_url = "https://youtu.be/MCkTebktHVc"
+  
   if (_url !== undefined) {
     intent.extras = {
       "android.intent.extra.TEXT": _url
     };
   }
 
+  
   openActivityDefault(intent);
 };
 
 openActivityDefault = function (intent) {
-  intent.package = "com.videoplayer.floatingyoutube";
   intentStartActivity(intent);
 };
 
@@ -60,6 +65,8 @@ intentStartActivity = function (_config) {
 //      eval('_extras["beginTime"] = ' + _extras["beginTime"]);
 //    }
 //  }
+
+
   window.plugins.webintent.startActivity(_config,
           function () {
             navigator.app.exitApp();

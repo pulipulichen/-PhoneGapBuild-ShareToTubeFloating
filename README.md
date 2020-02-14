@@ -1,5 +1,7 @@
 # PhoneGapBuild-ShareToTubeFloating
 
+失敗了，這個不要用
+
 - GitHub: https://github.com/pulipulichen/PhoneGapBuild-ShareToTubeFloating
 - PhoneGap Build: https://build.phonegap.com/apps/3859737/builds
     * 登入: https://build.phonegap.com/people/sign_in

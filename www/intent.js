@@ -6,11 +6,13 @@ intent_handler = function (intent) {
   intent.package = "com.videoplayer.floatingyoutube";
   
   //alert("換了 可以嗎？");
-  //alert(JSON.stringify(intent));
+  alert(JSON.stringify(intent));
+  
   if (typeof (intent.action) === "string"
           && intent.action === "android.intent.action.MAIN") {
     return openActivityDefault({
-      package: intent.package
+      package: intent.package,
+      action: 'android.intent.action.SEND'
     });
   }
 
@@ -23,7 +25,6 @@ intent_handler = function (intent) {
     };
   }
 
-  
   openActivityDefault(intent);
 };
 

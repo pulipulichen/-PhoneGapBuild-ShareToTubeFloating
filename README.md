@@ -1,15 +1,15 @@
-# -PhoneGapBuild-ShareToTubeFloating
+# PhoneGapBuild-ShareToTubeFloating
 
-- GitHub: https://github.com/pulipulichen/PhoneGapBuild-ShareToShortcut
-- PhoneGap Build: https://build.phonegap.com/apps/3228957/builds
+- GitHub: https://github.com/pulipulichen/PhoneGapBuild-ShareToTubeFloating
+- PhoneGap Build: https://build.phonegap.com/apps/3859737/builds
+    * 登入: https://build.phonegap.com/people/sign_in
     * https://build.phonegap.com/apps
-    * https://build.phonegap.com/people/sign_in
-    * https://build.phonegap.com/apps/3228957/download/android
+    * https://build.phonegap.com/apps/3859737/download/android
 
-- Install: https://goo.gl/JAGmUy (小寫l)
-    * https://build.phonegap.com/apps/3228957/download/android
+- Install: http://bit.ly/2SKWzyz
+    * https://build.phonegap.com/apps/3859737/download/android
 
-![Install](https://chart.googleapis.com/chart?chs=116x116&cht=qr&chl=https://build.phonegap.com/apps/3228957/install/jAuG33sd1JgqxRQ2xedN&chld=L|1&choe=UTF-8)
+![Install](https://chart.googleapis.com/chart?chs=116x116&cht=qr&chl=https://build.phonegap.com/apps/3859737/install/jAuG33sd1JgqxRQ2xedN&chld=L|1&choe=UTF-8)
 
 # Reference
 - Main icon: http://www.iconninja.com/pin-icon-15786

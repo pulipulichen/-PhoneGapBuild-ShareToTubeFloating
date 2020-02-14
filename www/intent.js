@@ -115,9 +115,9 @@ intent_handler = function (intent) {
 openActivity = function () {
   //return;
   var _config = {
-    action: "com.ngc.fora.action.LOOKUP",
+    action: "com.videoplayer.floatingyoutube.activities.SendActivity",
     extras: {
-      "android.intent.extra.TEXT": "",
+      "android.intent.extra.TEXT": 'https://youtu.be/pp0f69FC5NE',
     }
   };
 
